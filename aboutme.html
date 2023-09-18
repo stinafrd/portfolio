@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script src="https://kit.fontawesome.com/b4c027e469.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-TD7a5z5Z7Fg8P1wzjFdaDvxPD7Ji5fo0rnxm3l3Ks/sM4wR8b8g5k5F5F5F5F5F5F5F" crossorigin="anonymous"></script>
+
+
+        <title>Portfolio Stina Marie Föhrder</title>
+    </head>
+
+
+    <body>
+        <img id="biene" src="images/biene.png" alt="biene">
+        <div class="popup-container" id="popup-container">
+            <div class="englisch popup-box">
+                <span class="popup-close">X</span>
+                <h3>Why is there a bee?</h3>
+                <p>Because my nickname is Stinchen Bienchen (translates to bee).</p>
+                <h5>Get to know me better:</h5>
+                <p>- I play handball since I'm 6 years old.🤾🏼‍♀️<br>
+                    - I also have a great interest in other sports, especially in these ones: 🏈⚽️⛷️. <br>
+                    - In my freetime I love to be creative for example when I draw or by taking pictures. 🎨📸 <br>
+                    - To relax I love reading or listening to music. Feel free to listen to <a href="https://open.spotify.com/intl-de/track/5exlcLrnyW9DEmLCjke1Wv">my fave song</a> right now. 📚🎧 <br>
+                    - My favorite food is probably one of these: 🍔🍝🍪🍱.<br>
+                    - aaand I love dogs.🐶
+                </p>
+                <div class="pb-2 pt-2" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 10px;">
+                    <a href="images/handball.jpg" data-fancybox="gallery" data-caption="I play handball since I'm 6 years old.🤾🏼‍♀️">
+                        <img src="images/handball.jpg" alt="handball" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/football.png" data-fancybox="gallery" data-caption="I also have a great interest in other sports, especially in these ones: 🏈...">
+                        <img src="images/football.png" alt="football" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/soccer.jpg" data-fancybox="gallery" data-caption="⚽️...">
+                        <img src="images/soccer.jpg" alt="soccer" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/ski.jpg" data-fancybox="gallery" data-caption="⛷️.">
+                        <img src="images/ski.jpg" alt="ski" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/zeichnen.png" data-fancybox="gallery" data-caption="In my freetime I love to be creative for example when I draw...">
+                        <img src="images/zeichnen.png" alt="zeichnen" class="rounded" width="200" height="150">
+                     </a>
+                    <a href="images/foto.jpg" data-fancybox="gallery" data-caption="or by taking pictures. 🎨📸">
+                        <img src="images/foto.jpg" alt="Pictures" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/hunde.png" data-fancybox="gallery" data-caption="aaaand I love dogs.🐶">
+                        <img src="images/hunde.png" alt="Dogs" class="rounded" width="100" height="150">
+                    </a>
+                </div>
+            </div>
+            <div class="deutsch popup-box">
+                <span class="popup-close">X</span>
+                <h3>Warum ist da eine Biene?</h3>
+                <p>Weil mein Spitzname Stinchen Bienchen ist.</p>
+                <h5>Hier kannst du mich näher kennenlernen:</h5>
+                <p>- Ich spiele Handball seitdem ich 6 Jahre alt bin.🤾🏼‍♀️<br>
+                    - Ich habe auch großes Interesse in anderen Sportarten, wie diese hier: 🏈⚽️⛷️. <br>
+                    - In meiner Freizeit bin ich gerne kreativ, wie beim Malen oder wenn ich fotografiere. 🎨📸 <br>
+                    - Um zu relaxen, lese ich gerne oder höre Musik. Höre dir gerne mein <a href="https://open.spotify.com/intl-de/track/5exlcLrnyW9DEmLCjke1Wv">Lieblingslied</a> an. 📚🎧 <br>
+                    - Mein Lieblingsessen ist wahrscheinlich eins von diesen: 🍔🍝🍪🍱.<br>
+                    - uuuund ich liebe Hunde.🐶
+                </p>
+                <div class="pb-2 pt-2 image-gallery">
+                    <a href="images/handball.jpg" data-fancybox="gallery" data-caption="Ich spiele Handball seitdem ich 6 Jahre alt bin.🤾🏼‍♀️">
+                        <img src="images/handball.jpg" alt="handball" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/football.png" data-fancybox="gallery" data-caption="Ich habe auch großes Interesse in anderen Sportarten, wie diese hier: 🏈...">
+                        <img src="images/football.png" alt="football" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/soccer.jpg" data-fancybox="gallery" data-caption="⚽️...">
+                        <img src="images/soccer.jpg" alt="soccer" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/ski.jpg" data-fancybox="gallery" data-caption="⛷️.">
+                        <img src="images/ski.jpg" alt="ski" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/zeichnen.png" data-fancybox="gallery" data-caption="In meiner Freizeit bin ich gerne kreativ, wie beim Malen...">
+                        <img src="images/zeichnen.png" alt="zeichnen" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/foto.jpg" data-fancybox="gallery" data-caption="oder wenn ich fotografiere. 🎨📸">
+                         <img src="images/foto.jpg" alt="Pictures" class="rounded" width="200" height="150">
+                    </a>
+                    <a href="images/hunde.png" data-fancybox="gallery" data-caption="uuuund ich liebe Hunde.🐶">
+                        <img src="images/hunde.png" alt="Dogs" class="rounded" width="100" height="150">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg text-uppercase">
+            <div class="container">
+              <a class="englisch navbar-brand" href="index.html">Welcome.</a>
+              <a class="deutsch navbar-brand" href="index.html">Willkommen.</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="englisch nav-link px-lg-4 rounded" href="mywork.html">My Work</a>
+                    <a class="deutsch nav-link px-lg-4 rounded" href="mywork.html">Meine Arbeit</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="englisch nav-link px-lg-4 rounded" href="aboutme.html">About Me</a>
+                    <a class="deutsch nav-link px-lg-4 rounded" href="aboutme.html">Über mich</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="englisch nav-link px-lg-4 rounded" href="contact.html">Contact</a>
+                    <a class="deutsch nav-link px-lg-4 rounded" href="contact.html">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!-- main section start -->
+
+        <section class="py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <a href="images/ich2.png" data-fancybox="gallery">
+                            <img src="images/ich2.png" data-aos="fade-right" data-aos-duration="2000" class="shad img-fluid" alt="AboutMe">
+                        </a>  
+                    </div>
+                    <div class="englisch col-lg-7">
+                        <h1>About Me.</h1>
+                        <p>MEDIA & INTERACTION DESIGN</p>
+                        <p class="py-3">I am <strong>Stina Marie Föhrder</strong> and I am 21 years old. Currently I am living in Bissendorf, Germany. 
+                        Since 2022 I go to the university in Osnabrück and study Media and Interaction Design there.<br>
+                        I love to be creative and also like to do sports in my freetime.<br>
+                        If you would like to get to know me better, please scroll or contact me. :)</p>
+
+                        <a href="contact.html"><input type="button" onclick="href ='contact.html'" value="Contact Me" class="bt1 mt-5 mr-3"></a>
+                        <a href="cv.pdf" download="CV"><input type="button" value="Download CV" class="bt2 mt-5"></a><br>
+
+                        <img style="height: 300px; width: 600px; padding-left: 150px; margin-top: 50px;" src="images/behappy.png" alt="happy"> <br>
+                    </div>
+                    <div class="deutsch col-lg-7">
+                        <h1>Über mich.</h1>
+                        <p>MEDIA & INTERACTION DESIGN</p>
+                        <p class="py-3">Ich bin <strong>Stina Marie Föhrder</strong> und bin 21 Jahre alt. Momentan lebe ich in Bissendorf,Duetschland. 
+                        Seit 2022 gehe ich zur Hochschule Osnabrück und studiere Media and Interaction Design dort.<br>
+                        Ich liebe es kreativ zu sein und mache (und interessiere) mich auch für Sport in meiner Freizeit.<br>
+                        Wenn du mich näher kennenlernen willst, scrolle gerne weiter oder kontaktiere mich. :)</p>
+
+                        <a href="contact.html"><input type="button" onclick="href ='contact.html'" value="Kontaktiere mich" class="bt1 mt-5 mr-3"></a>
+                        <a href="CV.pdf" download="CV"><input type="button" value="CV herunterladen" class="bt2 mt-5"></a><br>
+
+                        <img style="height: 300px; width: 600px; padding-left: 150px; margin-top: 50px;" src="images/behappy.png" alt="happy"> <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light">
+            <h1 class="englisch text-center py-5 pb-5">My life.</h1>
+            <h1 class="deutsch text-center py-5 pb-5">Mein Leben.</h1>
+            <div class="timeline">
+                <div class="kontainer left-kontainer">
+                    <img style="height: 45px; width: 40px" src="images/baby.png">
+                    <div class="text-box" data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="englisch">Birthday</h2>
+                        <h2 class="deutsch">Geburtstag</h2>
+                        <small>26.06.2002</small>
+                        <p class="englisch">I was born in Osnabrück, Germany. </p>
+                        <p class="deutsch">Ich bin in Osnabrück, Deutschland geboren. </p>
+                        <span class="left-kontainer-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="kontainer right-kontainer">
+                    <img style="height: 45px; width: 50px" src="images/school.png">
+                    <div class="text-box" data-aos="fade-left" data-aos-duration="2000">
+                        <h2 class="englisch">Elementary School</h2>
+                        <h2 class="deutsch">Grundschule</h2>
+                        <small>2008 - 2012</small>
+                        <p class="englisch">I went to the elementary school in Bissendorf, Germany.</p>
+                        <p class="deutsch">Ich ging zur Grundschule in Bissendorf, Deutschland.</p>
+                        <span class="right-kontainer-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="kontainer left-kontainer">
+                    <img style="height: 45px; width: 50px" src="images/school.png">
+                    <div class="text-box" data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="englisch">Secondary Modern School</h2>
+                        <h2 class="deutsch">Realschule</h2>
+                        <small>2012 - 2018</small>
+                        <p class="englisch">I went to the secondary modern school "Domschule" in Osnabrück. I completed it with the extended secondary qualification I. </p>
+                        <p class="deutsch">Ich ging zur "Domschule" in Osnabrück. Ich habe die Schule mit dem erweiterten Sekundarabschluss I abgeschlossen.</p>
+                        <span class="left-kontainer-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="kontainer right-kontainer">
+                    <img style="height: 55px; width: 50px" src="images/usa.png">
+                    <div class="text-box" data-aos="fade-left" data-aos-duration="2000">
+                        <h2 class="englisch">Exchange Year</h2>
+                        <h2 class="deutsch">Auslandsjahr</h2>
+                        <small>2018 - 2019</small>
+                        <p class="englisch">I did an exchange year in Grain Valley, USA and went to high school there.</p>
+                        <p class="deutsch">Ich habe ein Auslandsjahr in Grain Valley, USA gemacht und ging dort zur High School.</p>
+                        <span class="right-kontainer-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="kontainer left-kontainer">
+                    <img style="height: 45px; width: 50px" src="images/school.png">
+                    <div class="text-box" data-aos="fade-right" data-aos-duration="2000">
+                        <h2 class="englisch">Grammar School</h2>
+                        <h2 class="deutsch">Gymnasium</h2>
+                        <small>2019 - 2022</small>
+                        <p class="englisch">I went to the grammar school "Ursulaschule" in Osnabrück. During that time I also worked at a restaurant. I have completed the school with the general university entrance qualification (A-levels).</p>
+                        <p class="deutsch">Ich ging zur "Ursulaschule" in Osnabrück. Währenddessen habe ich auch in einem Restaurant gearbeitet. Die Schule habe ich mit der allgemeinen Hochschulreife (dem Abitur) abgeschlossen.</p>
+                        <span class="left-kontainer-arrow"></span>
+                    </div>
+                </div>
+
+                <div class="kontainer right-kontainer">
+                    <img style="height: 45px; width: 50px" src="images/uni.png">
+                    <div class="text-box" data-aos="fade-left" data-aos-duration="2000">
+                        <h2 class="englisch">University</h2>
+                        <h2 class="deutsch">Hochschule</h2>
+                        <small class="englisch">2022 - now</small>
+                        <small class="deutsch">2022 - jetzt</small>
+                        <p class="englisch">Right now I am goinig to the university in Osnabrück and I am studying Media & Interaction design. I am currently in my third semester and I expect to graduate with a Bachelor of Arts degree in spring 2026.
+                            In my first semester I worked at DHL and right now I am working as a student assistant at the university in the field of start-ups and foundation.
+                        </p>
+                        <p class="deutsch">Momentan gehe ich zur Hochschule in Osnabrück und stdiere Media & Interaction design. Ich befinde mich jetzt im dritten Semester und werden voraussichtlich mit dem Bachelor of Arts im Frühling 2026 fertig sein.
+                            In meinem ersten Semester habe ich bei DHL gearbeitet und jetzt arbeite ich als studentische Hilfskraft bei der Hochschule Osnabrück im Bereich StartUp und Gründung.
+                        </p>
+                        <span class="right-kontainer-arrow"></span>
+                    </div>
+                </div>
+                <div class="vertical-line" id="animated-line"></div>
+            </div>
+        </section>
+
+        <div class="text-center pt-3">
+            <button class="px-lg-4 rounded switcher active" id="switchToEnglish">English</button>
+            <button class="px-lg-4 rounded switcher" id="switchToGerman">Deutsch</button>
+        </div>
+    
+        <script src="language.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script> AOS.init(); </script>
+    </body>
+
+    <footer class="bg-white text-center text-dark">
+        <div class="container p-4 pb-0">
+        <section class="mb-4">
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/stina.fohrder" role="button"
+            ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+    
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.instagram.com/stina.frd/?hl=de" role="button"
+            ><i class="fa-brands fa-instagram fa-lg"></i
+            ></a>
+    
+            <a class="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/stina-f%C3%B6hrder-046aa81a4/" role="button"
+            ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+
+            <a class="btn btn-outline-dark btn-floating m-1" href="mailto:stina.foehrder02@gmail.com" role="button"
+            ><i class="fa-regular fa-envelope"></i
+            ></a>
+        </section>
+        </div>
+        
+        <div class="text-center p-3">
+        © 2023 Copyright:
+        <a>Stina Marie Föhrder</a>
+        </div>
+  </footer>
+</html>
